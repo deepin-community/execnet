@@ -1,3 +1,37 @@
+execnet (2.1.1-1) unstable; urgency=medium
+
+  * Update to new upstream release 2.1.1
+
+ -- Scott Talbert <swt@techie.net>  Tue, 23 Apr 2024 20:10:06 -0400
+
+execnet (2.0.2-1) unstable; urgency=medium
+
+  * Update to new upstream release 2.0.2
+  * Add extend-diff-ignore to fix FTBFS double-build (Closes: #1044556)
+  * Run tests the pybuild way
+
+ -- Scott Talbert <swt@techie.net>  Thu, 28 Mar 2024 22:23:42 -0400
+
+execnet (2.0.0-2) unstable; urgency=medium
+
+  * Fix autopkgtests (missing execnet dependency)
+
+ -- Scott Talbert <swt@techie.net>  Mon, 10 Jul 2023 10:21:56 -0400
+
+execnet (2.0.0-1) unstable; urgency=medium
+
+  * Switch to GitHub tarballs (PyPI tarballs no longer contain tests)
+  * Update to new upstream release 2.0.0
+
+ -- Scott Talbert <swt@techie.net>  Fri, 07 Jul 2023 18:02:35 -0400
+
+execnet (1.9.0-2) unstable; urgency=medium
+
+  * Update Standards-Version to 4.6.2
+  * Add missing BD on python3-py to fix tests with newer pytest
+
+ -- Scott Talbert <swt@techie.net>  Wed, 05 Jul 2023 20:14:49 -0400
+
 execnet (1.9.0-1) unstable; urgency=medium
 
   * Update to new upstream release 1.9.0

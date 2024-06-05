@@ -1,7 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: execnet
 Source: https://github.com/pytest-dev/execnet
-Files-Excluded: execnet.egg-info
 
 Files: *
 Copyright: 2009-2016 Holger Krekel <holger@merlinux.eu>
